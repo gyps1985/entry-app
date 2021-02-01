@@ -1,0 +1,57 @@
+{
+  "clubs": [
+    {
+      "id": 101,
+      "name": "Manchester United",
+      "homeStadium": "OldTrafford",
+      "description": "Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football.",
+      "manager": "Ole Gunnar Solskjær",
+      "url": "https://www.manutd.com/#",
+      "islike": false
+    },
+    {
+      "id": 102,
+      "name": "Manchester City",
+      "homeStadium": "Etihad",
+      "description": "Manchester City Football Club is an English football club based in Manchester that competes in the Premier League, the top flight of English football. Founded in 1880 as St. Mark's, it became Ardwick Association Football Club in 1887 and Manchester City in 1894",
+      "manager": "Pep Guardiola",
+      "url": "https://www.mancity.com/",
+      "islike": false
+    },
+    {
+      "id": 103,
+      "name": "Arsenal",
+      "homeStadium": "Emirates",
+      "description": "Arsenal Football Club is a professional football club based in Islington, London, England that plays in the Premier League, the top flight of English football.",
+      "manager": "Mikel Arteta",
+      "url": "https://www.arsenal.com/",
+      "islike": false
+    },
+    {
+      "id": 104,
+      "name": "Liverpool",
+      "homeStadium": "Anfield",
+      "description": "Liverpool Football Club is a professional football club in Liverpool, England, that competes in the Premier League, the top tier of English football. Domestically, the club has won nineteen League titles, seven FA Cups, a record eight League Cups and fifteen FA Community Shields",
+      "manager": "Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/",
+      "islike": false
+    },
+    {
+      "name": "AC Milan",
+      "homeStadium": "San Siro Stadium",
+      "manager": "Stefano Pioli",
+      "description": "Associazione Calcio Milan, commonly referred to as A.C. Milan or simply Milan, is a professional football club in Milan, Italy, founded in 1899. The club has spent its entire history, with the exception of the 1980–81 and 1982–83 seasons, in the top flight of Italian football, known as Serie A since 1929–30.",
+      "url": "",
+      "id": 105,
+      "islike": false
+    },
+    {
+      "name": "Baecelona",
+      "homeStadium": "Nau Camp",
+      "manager": "Ronald Keaman",
+      "description": "",
+      "url": "",
+      "id": 106
+    }
+  ]
+}

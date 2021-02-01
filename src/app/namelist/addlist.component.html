@@ -1,0 +1,32 @@
+<form [formGroup]="clubGroup" Class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Name</mat-label>
+    <input formControlName="clubNameCtrl" matInput placeholder="Name" />
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Home Stadium</mat-label>
+    <input formControlName="clubHomeCtrl" matInput placeholder="Stadium" />
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Manager</mat-label>
+    <input formControlName="clubManagerCtrl" matInput placeholder="Manager" />
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Description</mat-label>
+    <input
+      formControlName="descriptionCtrl"
+      matInput
+      placeholder="Description"
+    />
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Url</mat-label>
+    <input formControlName="urlCtrl" matInput placeholder="Url" />
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="addClub()">Add</button>
+</form>

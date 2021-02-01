@@ -1,0 +1,14 @@
+<mat-nav-list>
+  <mat-list-item *ngFor="let club of clubs$ | async">
+    <button mat-icon-button (click)="showInfo(club)">
+      <mat-icon>info</mat-icon>
+    </button>
+    {{ club.name }}
+  </mat-list-item>
+</mat-nav-list>
+<div *ngIf="club">
+  <app-nameview
+    [selectedClub]="club"
+    (closeCard)="closeCard($event)"
+  ></app-nameview>
+</div>

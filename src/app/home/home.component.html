@@ -1,0 +1,6 @@
+<button routerLink="about">About</button>
+<button mat-button [matMenuTriggerFor]="addclubMenu">Club</button>
+<mat-menu #addclubMenu="matMenu" yPosition="below">
+  <button mat-menu-item routerLink='add'>Add Club</button>
+  <button mat-menu-item routerLink='view'>View Club</button>
+</mat-menu>

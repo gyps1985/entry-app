@@ -1,4 +1,4 @@
 export const environment = {
-  production: true,
+  production: false,
   getclub: "http://localhost:3000/clubs",
 };
